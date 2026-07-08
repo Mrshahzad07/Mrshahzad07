@@ -1,32 +1,45 @@
-# React + TypeScript + Vite
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=700&size=32&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Md+Shahzad+%F0%9F%91%8B;AI%2FML+Engineer;Full+Stack+Developer" alt="Typing SVG" />
+  
+  <p align="center">
+    <strong>Building intelligent systems and modern web interfaces.</strong>
+    <br/>
+    <a href="https://mdshahzad.netlify.app">Portfolio</a>
+    ·
+    <a href="https://linkedin.com/in/mdshahzad">LinkedIn</a>
+  </p>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+<br/>
 
-Currently, two official plugins are available:
+## ⚡ Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,ts,tailwind,vite,nextjs,python,fastapi,spring,postgres,docker,git,linux&theme=dark" alt="Tech Stack" />
+  </a>
+</div>
 
-## React Compiler
+<br/>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📊 GitHub Analytics
 
-## Expanding the Oxlint configuration
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Mrshahzad07&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0a0f&title_color=8b5cf6&icon_color=8b5cf6&text_color=a1a1aa" alt="GitHub Stats" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mrshahzad07&theme=tokyonight&hide_border=true&background=0a0a0f&ring=8b5cf6&fire=8b5cf6&currStreakLabel=8b5cf6" alt="GitHub Streak" width="49%" />
+</div>
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mrshahzad07&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0a0f&title_color=8b5cf6&text_color=a1a1aa" alt="Top Languages" width="49%" />
+</div>
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+<br/>
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## 🚀 About This Repository
+
+> The source code in this repository contains a custom-built **React + Vite Dashboard App** designed to visualize my GitHub data in real-time. 
+
+To view the interactive React dashboard we built:
+1. Clone this repository
+2. Run `npm install` and `npm run dev`
+3. Make sure to add a `VITE_GITHUB_TOKEN` to your `.env` file to bypass API limits!
